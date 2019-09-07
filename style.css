@@ -25,6 +25,9 @@ ul{
 	background-color:#e4626e;
 	color:white;
 }
+.specialText{
+	color:#e4626e;
+}
 .container{
 	margin:auto;
 	width:max-content;	
@@ -34,6 +37,8 @@ ul{
 	position:relative;
 	height:60px;;
 	background-color:white;
+	color:#43489c;
+	font-weight:bold;
 		
 }
 	#header .logo{
@@ -48,9 +53,8 @@ ul{
 		position: absolute;
   		left: 50%;
 		bottom:10px;
+
 		
-		font-weight:bold;
-		color:#43489c;
 	}
 		#header .midMenu ul{
 			display:inline-block;
@@ -72,9 +76,15 @@ ul{
 #banner{
 	background-color:white;
 	text-align:center;
+	color:#43489c;
+	
 }
 	#banner{
-		padding:75px 0px;;	
+		padding:75px 0px;
+	}
+	#banner h3{
+		margin-top:25px;
+		color:	#e4626e;
 	}
 
 #features{
@@ -82,8 +92,9 @@ ul{
 }
 	#features .col{
 		display:inline-block;
-		width:33%;
+		width:30%;
 		text-align:center;
+		padding:1.5%;
 	}
 	#features img{
 		float:left;
@@ -94,11 +105,16 @@ ul{
 	background-color:#43489c;
 	color:white;
 }
+	#services h1{
+		padding-top:20px;
+	}
 	#services ul{
 		list-style-type:none;
 	}
 		#services li{
-			display:inline-block;
+			display:inline-grid;
+			width:130px;
+			padding:20px;
 		}
 
 #content{
