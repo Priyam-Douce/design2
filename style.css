@@ -34,6 +34,7 @@ body{
 	
 #banner{
 	background-color:white;
+	text-align:center;
 }
 	#banner{
 		padding:75px 0px;;	
@@ -51,3 +52,40 @@ body{
 		float:left;
 	}
 	
+#services{
+	text-align:center;
+}
+	#services ul{
+		list-style-type:none;
+	}
+		#services li{
+			display:inline-block;
+		}
+
+#content{
+
+}
+	#content .box{
+		display:inline-block;
+	}
+
+#contact{
+	
+}
+	#contact span{
+		display:inline-block;
+	}
+	
+#footer{
+	overflow:hidden;
+}
+	#footer ul{
+		display:inline-grid;
+		
+	}
+	#footer .left{
+		float:left;
+	}
+	#footer .right{
+		float:right;
+	}
