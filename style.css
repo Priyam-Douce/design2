@@ -120,12 +120,29 @@ ul{
 #content{
 
 }
+	#content h3{
+		color:#43489c;
+	}
+	#content a{
+		color:#56c2d5;
+		font-weight:bold;
+		text-align:right;
+		padding-right:20px;
+		padding-bottom:10px;
+	}
 	#content .box{
 		display:inline-grid;
 		margin:30px;
 		background-color:white;
-		width:230px;
+		width:270px;
 	}
+		#content .box img{
+			width:100%;
+		}
+		#content .box div{
+			padding:10px;
+			width:auto;
+		}
 
 #contact{
 	text-align:center;
@@ -133,6 +150,9 @@ ul{
 	#contact span{
 		display:inline-block;
 		margin:20px;
+	}
+	#contact h2{
+		padding-top:20px;
 	}
 	
 	
@@ -165,7 +185,7 @@ ul{
 		float:right;
 
 		position:absolute;
-		top:50%;
+		
 		right:0px;
 	}
 	#footer .right img{
