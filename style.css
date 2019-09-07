@@ -91,13 +91,18 @@ a:hover{
 	}
 	
 #footer{
-	overflow:hidden;
+	
 	background-color:#43489c;
 	color:white;
 }
 	.footer_wrapper{
 		width:1250px;
+		height:100px;
 		margin:auto;
+		
+		position:relative;
+		
+		vertical-align: middle;
 	}
 	#footer ul{
 		display:inline-grid;
@@ -105,7 +110,15 @@ a:hover{
 	}
 	#footer .left{
 		float:left;
+		/*
+		position:absolute;
+		left:0px;
+		*/
 	}
 	#footer .right{
 		float:right;
+
+		position:absolute;
+		top:50%;
+		right:0px;
 	}
