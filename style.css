@@ -60,7 +60,7 @@ a:hover{
 		width:33%;
 		text-align:center;
 	}
-	#features .img{
+	#features img{
 		float:left;
 	}
 	
@@ -80,15 +80,20 @@ a:hover{
 
 }
 	#content .box{
-		display:inline-block;
+		display:inline-grid;
+		margin:30px;
+		background-color:white;
+		width:230px;
 	}
 
 #contact{
-	
+	text-align:center;
 }
 	#contact span{
 		display:inline-block;
+		margin:20px;
 	}
+	
 	
 #footer{
 	
@@ -121,4 +126,7 @@ a:hover{
 		position:absolute;
 		top:50%;
 		right:0px;
+	}
+	#footer .right img{
+		width:50px;
 	}
