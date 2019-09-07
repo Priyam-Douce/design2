@@ -1,3 +1,53 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	margin:0px;
+	background-color:#e7e6eb;
+}
 
+.container{
+	margin:auto;
+	width:max-content;	
+}
+
+#header{
+	position:relative;
+	height:55px;;
+	background-color:white;
+		
+}
+	#header .logo{
+		position: absolute;
+  		left: 50px;
+  		top: 50%;	
+	}
+	#header .midMenu{
+		position: absolute;
+  		left: 50%;
+  		top: 50%;	
+	}
+	#header .rightMenu{
+		position: absolute;
+  		right: 50px;
+ 		top:50%;
+	}
+	
+#banner{
+	background-color:white;
+}
+	#banner{
+		padding:75px 0px;;	
+	}
+
+#features{
+	
+}
+	#features .col{
+		display:inline-block;
+		width:33%;
+		text-align:center;
+	}
+	#features .img{
+		float:left;
+	}
+	
