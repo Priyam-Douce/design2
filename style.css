@@ -86,14 +86,16 @@ ul{
 	#header .rightMenu span{
 		display:inline-block;
  	 vertical-align: middle;
-	 
 	}
-	.search{
+	#header .rightMenu .login img{
+		margin-right:6px;	
+	}
+	#header .rightMenu .search{
 		margin-left:50px !important;
 		margin-right:18px !important;
 		
 	}
-	.navMenu{
+	#header .rightMenu .navMenu{
 		font-size:30px;
 	}
 	#header .rightMenu .search img{
