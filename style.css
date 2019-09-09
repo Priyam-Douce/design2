@@ -35,25 +35,33 @@ ul{
 
 #header{
 	position:relative;
-	height:60px;;
+	height:72px;;
 	background-color:white;
 	color:#43489c;
 	font-weight:bold;
-		
+	box-shadow: 0px 15px 10px -15px #111;
+	/*text-align:center;
+	align-content: center;*/
 }
+	#header img{
+		height:40px;
+	}
 	#header .logo{
+		margin: 0;
 		position: absolute;
-  		left: 50px;
-  		bottom:10px;	
+  		left:50px;
+  		bottom:16px;	
 	}
 		#header .logo img{
-		width:75px;	
+		/*height:40px;*/
 	}
 	#header .midMenu{
-		position: absolute;
+		margin: 0;
+  		position: absolute;
+ 		 top: 50%;
   		left: 50%;
-		bottom:10px;
-
+  		-ms-transform: translate(-50%, -50%);
+  		transform: translate(-50%, -50%);
 		
 	}
 		#header .midMenu ul{
@@ -65,12 +73,16 @@ ul{
 			display:inline-block;
 		}
 			#header .midMenu img{
-				width:32px;
+				/*width:32px;*/
 			}
 	#header .rightMenu{
 		position: absolute;
   		right: 50px;
- 		bottom:10px;
+ 		bottom:16px;
+	}
+	#header .rightMenu .search img{
+		height:30px;
+		padding:5px;
 	}
 	
 #banner{
