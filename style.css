@@ -3,7 +3,7 @@
 body{
 	margin:0px;
 	background-color:#e7e6eb;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 a{
 	color:inherit;
@@ -38,6 +38,32 @@ ul{
 	width:max-content;	
 }
 
+.floatArea{
+	float:right;
+	height:768px;
+	position:relative;
+		
+}
+.floatArea .hide{
+	position:fixed;
+	right:0px;
+	top:40%;
+	color:red;
+}
+.floatArea .hide img{
+height:90px;
+margin-right:-15px;
+}
+.floatArea .chat{
+	position:fixed;
+	right:0px;
+	top:70%;
+	color:red;
+}
+.floatArea .chat img{
+height:110px;
+margin-right:-6px;
+}
 
 #header{
 	z-index:99;
