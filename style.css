@@ -119,12 +119,17 @@ ul{
 	
 }
 	#banner{
-		padding:75px 0px;
+		padding:65px 0px;
+	}
+	#banner h1{
+		font-size:37px;
 	}
 	#banner h3{
+		font-size:26px;
 		margin-top:25px;
 		color:	#e4626e;
 	}
+	
 
 #features{
 	
@@ -133,10 +138,15 @@ ul{
 		display:inline-block;
 		width:30%;
 		text-align:center;
-		padding:1.5%;
+		padding:28px 1.5%;
 	}
 	#features img{
 		float:left;
+		height:140px;
+		padding-left:45px;
+	}
+	#features .special img{
+		padding-left:15px;
 	}
 	
 #services{
@@ -145,41 +155,56 @@ ul{
 	color:white;
 }
 	#services h1{
-		padding-top:20px;
+		padding-top:36px;
+		padding-bottom:18px;
 	}
 	#services ul{
 		list-style-type:none;
+		margin:0px;
+		padding:0px;
 	}
 		#services li{
 			display:inline-grid;
 			width:130px;
-			padding:20px;
+			padding:18px;
+		}
+		#services h4{
+			font-weight:normal;
 		}
 
 #content{
 
 }
+	
+	#content .box{
+		display:inline-grid;
+		margin:45px;
+		background-color:white;
+		width:270px;
+		position:relative;
+	}
 	#content h3{
 		color:#43489c;
+		font-size:23px;
 	}
 	#content a{
 		color:#56c2d5;
 		font-weight:bold;
+		position:absolute;
+		right:16px;
+		bottom:8px;
+		/*
 		text-align:right;
 		padding-right:20px;
 		padding-bottom:10px;
-	}
-	#content .box{
-		display:inline-grid;
-		margin:30px;
-		background-color:white;
-		width:270px;
+		*/
 	}
 		#content .box img{
 			width:100%;
 		}
 		#content .box div{
 			padding:10px;
+			padding-bottom:0px;
 			width:auto;
 		}
 
@@ -192,6 +217,7 @@ ul{
 	}
 	#contact h2{
 		padding-top:20px;
+		font-size:32px;
 	}
 	
 	
