@@ -9,27 +9,28 @@ a{
 	color:inherit;
 	text-decoration:none;
 }
-a:hover{
-	text-decoration:underline;
-	cursor:pointer;
-
-}
-a:hover img{
-	
-	filter: drop-shadow(0px 0px 5px #CCC);
-}
+	a:hover{
+		text-decoration:underline;
+		cursor:pointer;
+	}
+		a:hover img{
+			filter: drop-shadow(0px 0px 5px #CCC);
+		}
+		
 h1, h2, h3, h4, h5, h6{
 margin:0px;
 }
+
 ul{
 	list-style-type:none;
-
 }
 
+/*red box */
 .special{
 	background-color:#e4626e;
 	color:white;
 }
+/* red text*/
 .specialText{
 	color:#ed2632;
 }
@@ -38,33 +39,8 @@ ul{
 	width:max-content;	
 }
 
-.floatArea{
-	float:right;
-	height:768px;
-	position:relative;
-		
-}
-.floatArea .hideBtn{
-	position:fixed;
-	right:0px;
-	top:40%;
-	color:red;
-}
-.floatArea .hideBtn img{
-height:90px;
-margin-right:-15px;
-}
-.floatArea .chatBtn{
-	position:fixed;
-	right:0px;
-	top:70%;
-	color:red;
-}
-.floatArea .chatBtn img{
-height:110px;
-margin-right:-6px;
-}
 
+/* header */
 #header{
 	z-index:99;
 	position:fixed;
@@ -75,86 +51,66 @@ margin-right:-6px;
 	background-color:white;
 	color:#43489c;
 	font-weight:bold;
-	
-	
 	border-bottom:1px solid #eaeaea;
-	  
-	  box-shadow: 3px 6px 4px rgba(0,0,0,0.1);
+	box-shadow: 3px 6px 4px rgba(0,0,0,0.1);
 }
-	.fullMenu{
-			position:relative;
-			height:inherit;
-	}
 	#header img{
 		height:40px;
 	}
-	#header .logo{
-		margin: 0;
-		position: absolute;
-  		left:50px;
-  		bottom:16px;	
+	#header .fullMenu{
+		position:relative;
+		height:inherit;
 	}
-		#header .logo img{
-		/*height:40px;*/
-	}
-	#header .midMenu{
-		margin: 0;
-  		position: absolute;
- 		 top: 50%;
-  		left: 50%;
-  		-ms-transform: translate(-50%, -50%);
-  		transform: translate(-50%, -50%);
-		
-	}
-		#header .midMenu ul{
-			display:inline-block;
-			padding:0px;
-			margin:0px;	
+		#header div{
+			position: absolute;
+			top: 50%;
+			-ms-transform: translate(0, -50%);
+			transform: translate(0, -50%);	
 		}
-		#header .midMenu li{
-			display:inline-block;
-			font-size:20px;
-			padding:0px 15px;
+		#header .logo{
+			left:50px;
 		}
-			#header .midMenu img{
-				/*width:32px;*/
+		#header .midMenu{
+			left: 50%;
+			-ms-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+		}
+			#header .midMenu ul{
+				padding:0px;
+				margin:0px;	
 			}
-	#header .rightMenu{
-		position: absolute;
-  		right: 50px;
- 		bottom:16px;
-		
-	}
-	#header .rightMenu span{
-		display:inline-block;
- 	 vertical-align: middle;
-	}
-	#header .rightMenu .login img{
-		margin-right:6px;	
-	}
-	#header .rightMenu .search{
-		margin-left:50px !important;
-		margin-right:18px !important;
-		
-	}
-	#header .rightMenu .navMenu{
-		font-size:40px;
-	}
-	#header .rightMenu .search img{
-		height:30px;
-		
-	}
-	
+			#header .midMenu li{
+				display:inline-block;
+				font-size:20px;
+				padding:0px 15px;
+			}
+		#header .rightMenu{
+			right: 50px;	
+		}
+			#header .rightMenu span{
+				display:inline-block;
+			 	vertical-align: middle;
+			}
+				#header .rightMenu .login img{
+					margin-right:6px;	
+				}
+				#header .rightMenu .search img{
+					height:30px;
+					margin-left:50px !important;
+					margin-right:18px !important;	
+				}
+				#header .rightMenu .navMenu{
+					font-size:40px;
+				}
+
+/* banner*/
 #banner{
 	background-color:white;
-	text-align:center;
 	color:#43489c;
-	
+	text-align:center;
+	margin-top:65px;
+	padding:65px 0px;
 }
-	#banner{
-		margin-top:65px;
-		padding:65px 0px;
-	}
 	#banner h1{
 		font-size:37px;
 	}
@@ -163,7 +119,7 @@ margin-right:-6px;
 		margin-top:25px;
 	}
 	
-
+/*fearures*/
 #features{
 	
 }
@@ -173,20 +129,18 @@ margin-right:-6px;
 		text-align:center;
 		padding:28px 1.5%;
 	}
-	#features .col span{
-		display:inline-block;
- 	 vertical-align: middle;
-	 text-align:center;
-	 	
-	}
-	#features img{
-		float:left;
-		height:140px;
-		padding-right:45px;
-	}
-	#features .special img{
-		padding-left:15px;
-	}
+		#features .col span{
+			display:inline-block;
+			vertical-align: middle;
+		}
+			#features img{
+				float:left;
+				height:140px;
+				padding-right:45px;
+			}
+			#features .special img{
+				padding-right:15px;
+			}
 	
 #services{
 	text-align:center;
@@ -198,7 +152,6 @@ margin-right:-6px;
 		padding-bottom:18px;
 	}
 	#services ul{
-		list-style-type:none;
 		margin:0px;
 		padding:0px;
 	}
@@ -211,32 +164,16 @@ margin-right:-6px;
 			font-weight:normal;
 		}
 
+/* content */
 #content{
 
 }
-	
 	#content .box{
+		position:relative;
 		display:inline-grid;
 		margin:45px;
-		background-color:white;
 		width:270px;
-		position:relative;
-	}
-	#content h3{
-		color:#43489c;
-		font-size:23px;
-	}
-	#content a{
-		color:#56c2d5;
-		font-weight:bold;
-		position:absolute;
-		right:16px;
-		bottom:8px;
-		/*
-		text-align:right;
-		padding-right:20px;
-		padding-bottom:10px;
-		*/
+		background-color:white;
 	}
 		#content .box img{
 			width:100%;
@@ -244,61 +181,89 @@ margin-right:-6px;
 		#content .box div{
 			padding:10px;
 			padding-bottom:0px;
-			width:auto;
 		}
-
+			#content h3{
+				color:#43489c;
+				font-size:23px;
+			}
+		#content a{
+			position:absolute;
+			right:16px;
+			bottom:8px;
+			color:#56c2d5;
+			font-weight:bold;
+		}
+			
+/* contact area*/			
 #contact{
 	text-align:center;
 }
-	#contact span{
-		display:inline-block;
-		margin:10px 40px 20px;
-	}
 	#contact h2{
 		padding-top:20px;
 		font-size:32px;
 	}
-	#contact i{
-		font-size:30px;
-		padding-bottom:5px;
+	#contact span{
+		display:inline-block;
+		margin:10px 40px 20px;
 	}
+		#contact i{
+			font-size:30px;
+			padding-bottom:5px;
+		}
 	
-	
+/* footer */
 #footer{
-	
 	background-color:#43489c;
 	color:white;
 }
+	#footer ul{
+		display:inline-grid;
+	}
 	.footer_wrapper{
 		width:1250px;
 		height:100px;
 		margin:auto;
-		
-		
 		position:relative;
-		vertical-align: middle;
 	}
-	#footer ul{
-		display:inline-grid;
+		#footer .left{
+			position:absolute;
+			left:0px;
+		}
+		#footer .right{
+			position:absolute;
+			right:0px;
+			top:40%;
+		}
+			#footer .right span{
+				display:inline-block;
+				vertical-align: middle;	
+			}
+			#footer .right img{
+				width:75px;
+			}
+	
+/* float buttions*/
+.floatArea{
+	float:right;
+	height:768px;
+	position:relative;
 		
-	}
-	#footer .left{
-		float:left;
-		/*
-		position:absolute;
-		left:0px;
-		*/
-	}
-	#footer .right{
-		position:absolute;
+}
+	.floatArea .hideBtn{
+		position:fixed;
 		right:0px;
 		top:40%;
-
 	}
-	#footer .right span{
-		display:inline-block;
- 	 vertical-align: middle;	
+	.floatArea .hideBtn img{
+		height:90px;
+		margin-right:-15px;
 	}
-	#footer .right img{
-		width:75px;
+	.floatArea .chatBtn{
+		position:fixed;
+		right:0px;
+		top:70%;
+	}
+	.floatArea .chatBtn img{
+		height:110px;
+		margin-right:-6px;
 	}
