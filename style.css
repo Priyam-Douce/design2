@@ -71,6 +71,8 @@ ul{
 		}
 		#header .midMenu li{
 			display:inline-block;
+			font-size:20px;
+			padding:0px 15px;
 		}
 			#header .midMenu img{
 				/*width:32px;*/
@@ -79,10 +81,24 @@ ul{
 		position: absolute;
   		right: 50px;
  		bottom:16px;
+		
+	}
+	#header .rightMenu span{
+		display:inline-block;
+ 	 vertical-align: middle;
+	 
+	}
+	.search{
+		margin-left:50px !important;
+		margin-right:18px !important;
+		
+	}
+	.navMenu{
+		font-size:30px;
 	}
 	#header .rightMenu .search img{
 		height:30px;
-		padding:5px;
+		
 	}
 	
 #banner{
