@@ -236,7 +236,7 @@ ul{
 		margin:auto;
 		
 		
-		
+		position:relative;
 		vertical-align: middle;
 	}
 	#footer ul{
@@ -251,7 +251,9 @@ ul{
 		*/
 	}
 	#footer .right{
-		float:right;
+		position:absolute;
+		right:0px;
+		top:40%;
 
 	}
 	#footer .right span{
