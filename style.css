@@ -121,7 +121,7 @@ ul{
 	
 /*fearures*/
 #features{
-	
+	color:#43489c;
 }
 	#features .col{
 		display:inline-block;
@@ -142,36 +142,37 @@ ul{
 				padding-right:15px;
 			}
 	
-#services{
+#help{
 	text-align:center;
 	background-color:#43489c;
 	color:white;
 }
-	#services h1{
+	#help h1{
 		padding-top:36px;
 		padding-bottom:18px;
 	}
-	#services ul{
+	#help ul{
 		margin:0px;
 		padding:0px;
 	}
-		#services li{
+		#help li{
 			display:inline-grid;
 			width:130px;
 			padding:18px;
 		}
-		#services h4{
+		#help p{
 			font-weight:normal;
+			margin:0px;
+			margin-top:8px;
 		}
 
 /* content */
 #content{
-
+	overflow:hidden;
 }
 	#content .box{
-		position:relative;
-		display:inline-grid;
-		margin:45px;
+		float:left;
+		margin:55px 45px;
 		width:270px;
 		background-color:white;
 	}
@@ -179,56 +180,65 @@ ul{
 			width:100%;
 		}
 		#content .box div{
-			padding:10px;
+			margin:10px;
 			padding-bottom:0px;
 		}
 			#content h3{
 				color:#43489c;
 				font-size:23px;
 			}
-		#content a{
-			position:absolute;
-			right:16px;
-			bottom:8px;
-			color:#56c2d5;
-			font-weight:bold;
-		}
+			#content p{
+				margin-bottom:0px}
+			#content a{
+				float:right;
+				color:#56c2d5;
+				font-weight:bold;
+				margin-bottom:5px;
+			}
 			
-/* contact area*/			
-#contact{
+/* talk area*/			
+#talk{
 	text-align:center;
 }
-	#contact h2{
+	#talk h2{
 		padding-top:20px;
 		font-size:32px;
 	}
-	#contact span{
+	#talk .col{
 		display:inline-block;
 		margin:10px 40px 20px;
+		font-weight:bold;
 	}
-		#contact i{
+		#talk i{
 			font-size:30px;
-			padding-bottom:5px;
+			padding-bottom:6px;
+			opacity:0.8;
 		}
 	
 /* footer */
 #footer{
 	background-color:#43489c;
 	color:white;
+	height:120px;
 }
 	#footer ul{
 		display:inline-grid;
+		margin:0px;
 	}
 	.footer_wrapper{
 		width:1250px;
-		height:100px;
+		height:inherit;
 		margin:auto;
 		position:relative;
 	}
 		#footer .left{
 			position:absolute;
 			left:0px;
+			top:16px;
 		}
+			#footer .left li{
+				padding-bottom:8px;
+			}
 		#footer .right{
 			position:absolute;
 			right:0px;
@@ -239,7 +249,7 @@ ul{
 				vertical-align: middle;	
 			}
 			#footer .right img{
-				width:75px;
+				width:90px;
 			}
 	
 /* float buttions*/
@@ -247,6 +257,7 @@ ul{
 	float:right;
 	height:768px;
 	position:relative;
+	z-index:98;
 		
 }
 	.floatArea .hideBtn{
