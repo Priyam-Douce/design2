@@ -265,16 +265,16 @@ ul{
 		right:0px;
 		top:40%;
 	}
-	.floatArea .hideBtn img{
-		height:90px;
-		margin-right:-15px;
-	}
+		.floatArea .hideBtn img{
+			height:90px;
+			margin-right:-15px;
+		}
 	.floatArea .chatBtn{
 		position:fixed;
 		right:0px;
 		top:70%;
 	}
-	.floatArea .chatBtn img{
-		height:110px;
-		margin-right:-6px;
-	}
+		.floatArea .chatBtn img{
+			height:110px;
+			margin-right:-6px;
+		}
